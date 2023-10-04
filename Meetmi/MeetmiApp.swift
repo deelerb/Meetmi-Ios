@@ -20,9 +20,9 @@ struct MeetmiApp: App {
         
         WindowGroup {
             
-      // ContentView()
+       ContentView()
             
-         RegistrationView()
+       //  RegistrationView()
             
         }
     }
