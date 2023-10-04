@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>25354219773-ge6arls2dqi7aa71on9v357mfroqcqrs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.25354219773-ge6arls2dqi7aa71on9v357mfroqcqrs</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>25354219773-551v9mu4jijvqjt8gertugej665lvbqs.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB-R30CP0FNSpHWOW9WxLhZ-man83VAw0c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>25354219773</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>meetmi.social</string>
+	<key>PROJECT_ID</key>
+	<string>awesome-icon-360318</string>
+	<key>STORAGE_BUCKET</key>
+	<string>awesome-icon-360318.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:25354219773:ios:378094c8692ac245350e94</string>
+	<key>DATABASE_URL</key>
+	<string>https://awesome-icon-360318-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

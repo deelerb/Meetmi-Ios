@@ -1,0 +1,6 @@
+framework module Pods_Meetmi_MeetmiUITests {
+  umbrella header "Pods-Meetmi-MeetmiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
