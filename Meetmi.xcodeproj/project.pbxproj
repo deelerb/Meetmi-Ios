@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57AD2187AA0BC94B701835AA /* Pods_Meetmi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B5ADA1F7878C58C8ECEFBF /* Pods_Meetmi.framework */; };
+		5A48D1CD78B4D0807B67D33C /* Pods_MeetmiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C57DBE6AF9D9BB326D835 /* Pods_MeetmiTests.framework */; };
 		66231D6E2ACC1B1500D2BEF7 /* MeetmiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D6D2ACC1B1500D2BEF7 /* MeetmiApp.swift */; };
 		66231D702ACC1B1600D2BEF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D6F2ACC1B1600D2BEF7 /* ContentView.swift */; };
 		66231D722ACC1B1A00D2BEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66231D712ACC1B1A00D2BEF7 /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		66231D802ACC1B1B00D2BEF7 /* MeetmiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D7F2ACC1B1B00D2BEF7 /* MeetmiTests.swift */; };
 		66231D8A2ACC1B1B00D2BEF7 /* MeetmiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D892ACC1B1B00D2BEF7 /* MeetmiUITests.swift */; };
 		66231D8C2ACC1B1B00D2BEF7 /* MeetmiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D8B2ACC1B1B00D2BEF7 /* MeetmiUITestsLaunchTests.swift */; };
+		66803F6A2ACD431500207D89 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66803F692ACD431500207D89 /* RegistrationView.swift */; };
+		66803F6C2ACD537C00207D89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */; };
+		669145CA2ACDE36C00C6CED6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669145C92ACDE36C00C6CED6 /* MapView.swift */; };
+		669145CC2ACDE3DE00C6CED6 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */; };
+		82295987089AAA0378A74DDF /* Pods_Meetmi_MeetmiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014081B52AD30E4B5F710BDE /* Pods-Meetmi-MeetmiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetmi-MeetmiUITests.release.xcconfig"; path = "Target Support Files/Pods-Meetmi-MeetmiUITests/Pods-Meetmi-MeetmiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CB77686608F245F518193F5 /* Pods-MeetmiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetmiTests.debug.xcconfig"; path = "Target Support Files/Pods-MeetmiTests/Pods-MeetmiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3244EDCB45A701A5CFA641BB /* Pods-Meetmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetmi.release.xcconfig"; path = "Target Support Files/Pods-Meetmi/Pods-Meetmi.release.xcconfig"; sourceTree = "<group>"; };
+		47779F72746D3DD82361A042 /* Pods-Meetmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetmi.debug.xcconfig"; path = "Target Support Files/Pods-Meetmi/Pods-Meetmi.debug.xcconfig"; sourceTree = "<group>"; };
+		4949A7DA56E3DCFA5370075C /* Pods-Meetmi-MeetmiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetmi-MeetmiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Meetmi-MeetmiUITests/Pods-Meetmi-MeetmiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59B5ADA1F7878C58C8ECEFBF /* Pods_Meetmi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetmi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231D6A2ACC1B1500D2BEF7 /* Meetmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231D6D2ACC1B1500D2BEF7 /* MeetmiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiApp.swift; sourceTree = "<group>"; };
 		66231D6F2ACC1B1600D2BEF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +58,14 @@
 		66231D852ACC1B1B00D2BEF7 /* MeetmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231D892ACC1B1B00D2BEF7 /* MeetmiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiUITests.swift; sourceTree = "<group>"; };
 		66231D8B2ACC1B1B00D2BEF7 /* MeetmiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66803F692ACD431500207D89 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		669145C72ACDDA1900C6CED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		669145C92ACDE36C00C6CED6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetmi_MeetmiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9C477D29FC093C186F70B6 /* Pods-MeetmiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetmiTests.release.xcconfig"; path = "Target Support Files/Pods-MeetmiTests/Pods-MeetmiTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA9C57DBE6AF9D9BB326D835 /* Pods_MeetmiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetmiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AD2187AA0BC94B701835AA /* Pods_Meetmi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A48D1CD78B4D0807B67D33C /* Pods_MeetmiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82295987089AAA0378A74DDF /* Pods_Meetmi_MeetmiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0F504C6C08595F59A73C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47779F72746D3DD82361A042 /* Pods-Meetmi.debug.xcconfig */,
+				3244EDCB45A701A5CFA641BB /* Pods-Meetmi.release.xcconfig */,
+				4949A7DA56E3DCFA5370075C /* Pods-Meetmi-MeetmiUITests.debug.xcconfig */,
+				014081B52AD30E4B5F710BDE /* Pods-Meetmi-MeetmiUITests.release.xcconfig */,
+				2CB77686608F245F518193F5 /* Pods-MeetmiTests.debug.xcconfig */,
+				8E9C477D29FC093C186F70B6 /* Pods-MeetmiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		66231D612ACC1B1500D2BEF7 = {
 			isa = PBXGroup;
 			children = (
+				66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */,
 				66231D6C2ACC1B1500D2BEF7 /* Meetmi */,
 				66231D7E2ACC1B1B00D2BEF7 /* MeetmiTests */,
 				66231D882ACC1B1B00D2BEF7 /* MeetmiUITests */,
 				66231D6B2ACC1B1500D2BEF7 /* Products */,
+				2C0F504C6C08595F59A73C3E /* Pods */,
+				74D2EA901633D2E98C552C85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +135,15 @@
 		66231D6C2ACC1B1500D2BEF7 /* Meetmi */ = {
 			isa = PBXGroup;
 			children = (
+				669145C82ACDE31B00C6CED6 /* Helpers */,
+				669145C72ACDDA1900C6CED6 /* Info.plist */,
+				66803F662ACD41C000207D89 /* Registration */,
 				66231D6D2ACC1B1500D2BEF7 /* MeetmiApp.swift */,
 				66231D6F2ACC1B1600D2BEF7 /* ContentView.swift */,
 				66231D712ACC1B1A00D2BEF7 /* Assets.xcassets */,
 				66231D732ACC1B1A00D2BEF7 /* Meetmi.entitlements */,
 				66231D742ACC1B1A00D2BEF7 /* Preview Content */,
+				669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */,
 			);
 			path = Meetmi;
 			sourceTree = "<group>";
@@ -129,6 +173,32 @@
 			path = MeetmiUITests;
 			sourceTree = "<group>";
 		};
+		66803F662ACD41C000207D89 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				66803F692ACD431500207D89 /* RegistrationView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		669145C82ACDE31B00C6CED6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				669145C92ACDE36C00C6CED6 /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74D2EA901633D2E98C552C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B5ADA1F7878C58C8ECEFBF /* Pods_Meetmi.framework */,
+				89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */,
+				BA9C57DBE6AF9D9BB326D835 /* Pods_MeetmiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66231D8F2ACC1B1B00D2BEF7 /* Build configuration list for PBXNativeTarget "Meetmi" */;
 			buildPhases = (
+				6E1BE4F66210B2D14F57FE52 /* [CP] Check Pods Manifest.lock */,
 				66231D662ACC1B1500D2BEF7 /* Sources */,
 				66231D672ACC1B1500D2BEF7 /* Frameworks */,
 				66231D682ACC1B1500D2BEF7 /* Resources */,
+				91A960AD7CC074539A4B6766 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66231D922ACC1B1B00D2BEF7 /* Build configuration list for PBXNativeTarget "MeetmiTests" */;
 			buildPhases = (
+				0A90F03BEF75CBD2FF39F64D /* [CP] Check Pods Manifest.lock */,
 				66231D772ACC1B1B00D2BEF7 /* Sources */,
 				66231D782ACC1B1B00D2BEF7 /* Frameworks */,
 				66231D792ACC1B1B00D2BEF7 /* Resources */,
@@ -171,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66231D952ACC1B1B00D2BEF7 /* Build configuration list for PBXNativeTarget "MeetmiUITests" */;
 			buildPhases = (
+				1390E469A63385D4E8B18F56 /* [CP] Check Pods Manifest.lock */,
 				66231D812ACC1B1B00D2BEF7 /* Sources */,
 				66231D822ACC1B1B00D2BEF7 /* Frameworks */,
 				66231D832ACC1B1B00D2BEF7 /* Resources */,
+				CE0E3F9182E14DD02F058178 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +310,7 @@
 			files = (
 				66231D762ACC1B1A00D2BEF7 /* Preview Assets.xcassets in Resources */,
 				66231D722ACC1B1A00D2BEF7 /* Assets.xcassets in Resources */,
+				66803F6C2ACD537C00207D89 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +330,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A90F03BEF75CBD2FF39F64D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetmiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1390E469A63385D4E8B18F56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meetmi-MeetmiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1BE4F66210B2D14F57FE52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meetmi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A960AD7CC074539A4B6766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetmi/Pods-Meetmi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetmi/Pods-Meetmi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetmi/Pods-Meetmi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0E3F9182E14DD02F058178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetmi-MeetmiUITests/Pods-Meetmi-MeetmiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetmi-MeetmiUITests/Pods-Meetmi-MeetmiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetmi-MeetmiUITests/Pods-Meetmi-MeetmiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66231D662ACC1B1500D2BEF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				66231D702ACC1B1600D2BEF7 /* ContentView.swift in Sources */,
+				669145CA2ACDE36C00C6CED6 /* MapView.swift in Sources */,
+				669145CC2ACDE3DE00C6CED6 /* TrackingView.swift in Sources */,
 				66231D6E2ACC1B1500D2BEF7 /* MeetmiApp.swift in Sources */,
+				66803F6A2ACD431500207D89 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +590,7 @@
 		};
 		66231D902ACC1B1B00D2BEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47779F72746D3DD82361A042 /* Pods-Meetmi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -417,6 +600,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Meetmi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meetmi/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -432,7 +616,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = meetmi.social.Meetmi;
+				PRODUCT_BUNDLE_IDENTIFIER = meetmi.social;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -444,6 +628,7 @@
 		};
 		66231D912ACC1B1B00D2BEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3244EDCB45A701A5CFA641BB /* Pods-Meetmi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +638,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Meetmi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meetmi/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -468,7 +654,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = meetmi.social.Meetmi;
+				PRODUCT_BUNDLE_IDENTIFIER = meetmi.social;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -480,6 +666,7 @@
 		};
 		66231D932ACC1B1B00D2BEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB77686608F245F518193F5 /* Pods-MeetmiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +689,7 @@
 		};
 		66231D942ACC1B1B00D2BEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9C477D29FC093C186F70B6 /* Pods-MeetmiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +712,7 @@
 		};
 		66231D962ACC1B1B00D2BEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4949A7DA56E3DCFA5370075C /* Pods-Meetmi-MeetmiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +734,7 @@
 		};
 		66231D972ACC1B1B00D2BEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014081B52AD30E4B5F710BDE /* Pods-Meetmi-MeetmiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

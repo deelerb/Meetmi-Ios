@@ -6,12 +6,24 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct MeetmiApp: App {
+    
+    init() {
+           FirebaseApp.configure()
+       }
+    
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            
+      // ContentView()
+            
+         RegistrationView()
+            
         }
     }
 }
