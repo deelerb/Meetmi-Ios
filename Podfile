@@ -9,6 +9,10 @@ target 'Meetmi' do
 
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'GeoFire'
+  pod 'Firebase/Messaging'
+
+
 
 
   target 'MeetmiTests' do

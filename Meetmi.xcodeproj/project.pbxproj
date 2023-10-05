@@ -20,6 +20,15 @@
 		66803F6C2ACD537C00207D89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */; };
 		669145CA2ACDE36C00C6CED6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669145C92ACDE36C00C6CED6 /* MapView.swift */; };
 		669145CC2ACDE3DE00C6CED6 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */; };
+		66D2396A2ACEA5C400FD4680 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239692ACEA5C400FD4680 /* SplashView.swift */; };
+		66D2396C2ACEAF3600FD4680 /* Intro in Resources */ = {isa = PBXBuildFile; fileRef = 66D2396B2ACEAF3600FD4680 /* Intro */; };
+		66D2396E2ACEAF6500FD4680 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D2396D2ACEAF6400FD4680 /* Persistence.swift */; };
+		66D239732ACEB0FA00FD4680 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239722ACEB0FA00FD4680 /* ViewModel.swift */; };
+		66D239752ACEB19100FD4680 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239742ACEB19000FD4680 /* ViewRouter.swift */; };
+		66D239772ACEB2C800FD4680 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239762ACEB2C800FD4680 /* UserSettings.swift */; };
+		66D239792ACED2E200FD4680 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239782ACED2E100FD4680 /* VerificationViewModel.swift */; };
+		66D2397E2ACED49300FD4680 /* AuthData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66D2397C2ACED49300FD4680 /* AuthData.xcdatamodeld */; };
+		66D239802ACED89400FD4680 /* contents.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66D2397F2ACED89300FD4680 /* contents.txt */; };
 		82295987089AAA0378A74DDF /* Pods_Meetmi_MeetmiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +72,15 @@
 		669145C72ACDDA1900C6CED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		669145C92ACDE36C00C6CED6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		66D239692ACEA5C400FD4680 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		66D2396B2ACEAF3600FD4680 /* Intro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Intro; sourceTree = "<group>"; };
+		66D2396D2ACEAF6400FD4680 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		66D239722ACEB0FA00FD4680 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		66D239742ACEB19000FD4680 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		66D239762ACEB2C800FD4680 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		66D239782ACED2E100FD4680 /* VerificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		66D2397D2ACED49300FD4680 /* SwiftUI_OTP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_OTP.xcdatamodel; sourceTree = "<group>"; };
+		66D2397F2ACED89300FD4680 /* contents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contents.txt; sourceTree = "<group>"; };
 		89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetmi_MeetmiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9C477D29FC093C186F70B6 /* Pods-MeetmiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetmiTests.release.xcconfig"; path = "Target Support Files/Pods-MeetmiTests/Pods-MeetmiTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA9C57DBE6AF9D9BB326D835 /* Pods_MeetmiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetmiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +153,10 @@
 		66231D6C2ACC1B1500D2BEF7 /* Meetmi */ = {
 			isa = PBXGroup;
 			children = (
+				66D2397F2ACED89300FD4680 /* contents.txt */,
+				66D2397C2ACED49300FD4680 /* AuthData.xcdatamodeld */,
+				66D239712ACEB0DF00FD4680 /* ViewModels */,
+				66D2396B2ACEAF3600FD4680 /* Intro */,
 				669145C82ACDE31B00C6CED6 /* Helpers */,
 				669145C72ACDDA1900C6CED6 /* Info.plist */,
 				66803F662ACD41C000207D89 /* Registration */,
@@ -144,6 +166,7 @@
 				66231D732ACC1B1A00D2BEF7 /* Meetmi.entitlements */,
 				66231D742ACC1B1A00D2BEF7 /* Preview Content */,
 				669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */,
+				66D239692ACEA5C400FD4680 /* SplashView.swift */,
 			);
 			path = Meetmi;
 			sourceTree = "<group>";
@@ -184,9 +207,21 @@
 		669145C82ACDE31B00C6CED6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				66D2396D2ACEAF6400FD4680 /* Persistence.swift */,
 				669145C92ACDE36C00C6CED6 /* MapView.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		66D239712ACEB0DF00FD4680 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				66D239782ACED2E100FD4680 /* VerificationViewModel.swift */,
+				66D239762ACEB2C800FD4680 /* UserSettings.swift */,
+				66D239742ACEB19000FD4680 /* ViewRouter.swift */,
+				66D239722ACEB0FA00FD4680 /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		74D2EA901633D2E98C552C85 /* Frameworks */ = {
@@ -309,6 +344,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66231D762ACC1B1A00D2BEF7 /* Preview Assets.xcassets in Resources */,
+				66D239802ACED89400FD4680 /* contents.txt in Resources */,
+				66D2396C2ACEAF3600FD4680 /* Intro in Resources */,
 				66231D722ACC1B1A00D2BEF7 /* Assets.xcassets in Resources */,
 				66803F6C2ACD537C00207D89 /* GoogleService-Info.plist in Resources */,
 			);
@@ -438,11 +475,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D239752ACEB19100FD4680 /* ViewRouter.swift in Sources */,
 				66231D702ACC1B1600D2BEF7 /* ContentView.swift in Sources */,
 				669145CA2ACDE36C00C6CED6 /* MapView.swift in Sources */,
+				66D239772ACEB2C800FD4680 /* UserSettings.swift in Sources */,
 				669145CC2ACDE3DE00C6CED6 /* TrackingView.swift in Sources */,
+				66D2396E2ACEAF6500FD4680 /* Persistence.swift in Sources */,
+				66D239792ACED2E200FD4680 /* VerificationViewModel.swift in Sources */,
 				66231D6E2ACC1B1500D2BEF7 /* MeetmiApp.swift in Sources */,
 				66803F6A2ACD431500207D89 /* RegistrationView.swift in Sources */,
+				66D239732ACEB0FA00FD4680 /* ViewModel.swift in Sources */,
+				66D2396A2ACEA5C400FD4680 /* SplashView.swift in Sources */,
+				66D2397E2ACED49300FD4680 /* AuthData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +838,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		66D2397C2ACED49300FD4680 /* AuthData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66D2397D2ACED49300FD4680 /* SwiftUI_OTP.xcdatamodel */,
+			);
+			currentVersion = 66D2397D2ACED49300FD4680 /* SwiftUI_OTP.xcdatamodel */;
+			name = AuthData.xcdatamodeld;
+			path = "../../Connectd-Ios/Connectd/AuthData.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 66231D622ACC1B1500D2BEF7 /* Project object */;
 }
