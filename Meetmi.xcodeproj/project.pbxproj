@@ -58,7 +58,6 @@
 		66231D852ACC1B1B00D2BEF7 /* MeetmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231D892ACC1B1B00D2BEF7 /* MeetmiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiUITests.swift; sourceTree = "<group>"; };
 		66231D8B2ACC1B1B00D2BEF7 /* MeetmiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6627E0842ACF03FA00E6C247 /* CountryPicker-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "CountryPicker-master"; sourceTree = "<group>"; };
 		662B3DFF2ACFEB4400F7509F /* PhoneOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneOTPView.swift; sourceTree = "<group>"; };
 		66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		669145C72ACDDA1900C6CED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -181,7 +180,6 @@
 		6627E0832ACF03F200E6C247 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				6627E0842ACF03FA00E6C247 /* CountryPicker-master */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
