@@ -20,11 +20,7 @@ struct SplashView: View {
     
   
    
-  //  @EnvironmentObject private var delegate: AppDelegate
-    
-  //  @EnvironmentObject private var delegate: AppDelegate
-    
-  //  @EnvironmentObject private var delegate: AppDelegate
+ 
     
       @State var isEditing = false
     
@@ -36,16 +32,9 @@ struct SplashView: View {
     
 
     
-   // let isnotii = UserDefaults.standard.string(forKey: "notti")
-    
     let uid = Auth.auth().currentUser?.uid
     
-   // let viewmodeln = OnConnectdViewModel()
-    
-    @EnvironmentObject var appState: AppState
-    
-    @StateObject var settings = AppState()
-    
+ 
     var body: some View {
         
     
@@ -59,45 +48,27 @@ struct SplashView: View {
                 if (isUser) {
                     
                     ContentView()
-                    
-                    
-                    
-                    //   Text("chec")
-                    
-                    
-                    
+                 
                     
                 } else {
                     
                     
                     ZStack(){
                         
-                        
-                        
-                        Image("Registering-1")
-                            .resizable()
-                            .scaledToFill()
-                            .edgesIgnoringSafeArea(.all)
-                        
-                        
-                        VStack(){
+                        if(!isUser){
                             
-                            Text("GETTING YOU")
-                                .foregroundColor(.white)
-                                .font(Font.custom("Roboto-Regular", size: 17))
+                           PhoneOTPView()
                             
-                            Image("conne")
-                                .resizable()
-                                .frame(width: 150, height: 150)
+                        }else{
                             
                             
+                        Text("Splash screen")
                             
                         }
+                   
                         
                         
-                    }  .navigationBarHidden(true)
-                        .navigationBarBackButtonHidden(true)
-                        .accentColor(.white)
+                    }
                     
                     
                     
@@ -127,77 +98,11 @@ struct SplashView: View {
                 }
             }
             
-            //
-    
-                
-         let isnotii = defaults.string(forKey: "notti")
-                
-            print(isnotii)
        
             
-          print("ting" +  AppState.shared.grupsender)
-            
         }
-        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification, object: nil)) { _ in
-            
-                    print("App Will Resign")
-            let defaults = UserDefaults.standard
-            
-            let other = defaults.string(forKey: "otheruser")
-            
-      //      viewmodel.otheruser = other!
-            
-            
-                }
-                .onReceive(NotificationCenter.default.publisher(for: UIApplication.willTerminateNotification, object: nil)) { _ in
-                    print("App Will Terminate")
-                    
-                    let defaults = UserDefaults.standard
-                    
-                    let other = defaults.string(forKey: "otheruser")
-                    
-                 //   viewmodel.otheruser = other!
-                }
-                .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification,  object: nil)) { _ in
-                    
-                    
-                    print("App Will Enter Foreground nnn")
-                    
-                    let defaults = UserDefaults.standard
-                    
-                    let other = defaults.string(forKey: "otheruser")
-                    
-              //      viewmodel.otheruser = other!
-                    
-               //   print(viewmodel.otheruser)
-                    
-                 
-                    
-                //    viewmodel.otheruser = AppState.shared.otheruser
-                    
-                    print("AppState.shared.otheruser")
-                    
-               //   viewmodel.isChat = true
-                    
-                }
-                .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification, object: nil) ) { _ in
-                    
-                    print("App Did Become Active nnn")
-                    
-                    let defaults = UserDefaults.standard
-                    
-                    let other = defaults.string(forKey: "otheruser")
-                    
-               //     print(Messaging.appDidReceiveMessage(Messaging.))
-                    
-                    
-                    
-                 //   viewmodel.otheruser = other!
-                    
-                  //  print(viewmodel.otheruser)
-                    
-                    
-                }
+       
+               
   
         
 

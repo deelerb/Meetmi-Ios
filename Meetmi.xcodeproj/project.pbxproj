@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57AD2187AA0BC94B701835AA /* Pods_Meetmi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B5ADA1F7878C58C8ECEFBF /* Pods_Meetmi.framework */; };
-		5A48D1CD78B4D0807B67D33C /* Pods_MeetmiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C57DBE6AF9D9BB326D835 /* Pods_MeetmiTests.framework */; };
 		66231D6E2ACC1B1500D2BEF7 /* MeetmiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D6D2ACC1B1500D2BEF7 /* MeetmiApp.swift */; };
 		66231D702ACC1B1600D2BEF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D6F2ACC1B1600D2BEF7 /* ContentView.swift */; };
 		66231D722ACC1B1A00D2BEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66231D712ACC1B1A00D2BEF7 /* Assets.xcassets */; };
@@ -16,20 +14,14 @@
 		66231D802ACC1B1B00D2BEF7 /* MeetmiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D7F2ACC1B1B00D2BEF7 /* MeetmiTests.swift */; };
 		66231D8A2ACC1B1B00D2BEF7 /* MeetmiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D892ACC1B1B00D2BEF7 /* MeetmiUITests.swift */; };
 		66231D8C2ACC1B1B00D2BEF7 /* MeetmiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D8B2ACC1B1B00D2BEF7 /* MeetmiUITestsLaunchTests.swift */; };
-		66803F6A2ACD431500207D89 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66803F692ACD431500207D89 /* RegistrationView.swift */; };
+		662B3E002ACFEB4400F7509F /* PhoneOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B3DFF2ACFEB4400F7509F /* PhoneOTPView.swift */; };
+		663B2DD92ACF19AF00574130 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 663B2DD82ACF19AF00574130 /* CountryPicker */; };
 		66803F6C2ACD537C00207D89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */; };
 		669145CA2ACDE36C00C6CED6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669145C92ACDE36C00C6CED6 /* MapView.swift */; };
 		669145CC2ACDE3DE00C6CED6 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */; };
 		66D2396A2ACEA5C400FD4680 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239692ACEA5C400FD4680 /* SplashView.swift */; };
-		66D2396C2ACEAF3600FD4680 /* Intro in Resources */ = {isa = PBXBuildFile; fileRef = 66D2396B2ACEAF3600FD4680 /* Intro */; };
-		66D2396E2ACEAF6500FD4680 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D2396D2ACEAF6400FD4680 /* Persistence.swift */; };
-		66D239732ACEB0FA00FD4680 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239722ACEB0FA00FD4680 /* ViewModel.swift */; };
-		66D239752ACEB19100FD4680 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239742ACEB19000FD4680 /* ViewRouter.swift */; };
-		66D239772ACEB2C800FD4680 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239762ACEB2C800FD4680 /* UserSettings.swift */; };
-		66D239792ACED2E200FD4680 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D239782ACED2E100FD4680 /* VerificationViewModel.swift */; };
 		66D2397E2ACED49300FD4680 /* AuthData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66D2397C2ACED49300FD4680 /* AuthData.xcdatamodeld */; };
 		66D239802ACED89400FD4680 /* contents.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66D2397F2ACED89300FD4680 /* contents.txt */; };
-		82295987089AAA0378A74DDF /* Pods_Meetmi_MeetmiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +47,6 @@
 		3244EDCB45A701A5CFA641BB /* Pods-Meetmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetmi.release.xcconfig"; path = "Target Support Files/Pods-Meetmi/Pods-Meetmi.release.xcconfig"; sourceTree = "<group>"; };
 		47779F72746D3DD82361A042 /* Pods-Meetmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetmi.debug.xcconfig"; path = "Target Support Files/Pods-Meetmi/Pods-Meetmi.debug.xcconfig"; sourceTree = "<group>"; };
 		4949A7DA56E3DCFA5370075C /* Pods-Meetmi-MeetmiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetmi-MeetmiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Meetmi-MeetmiUITests/Pods-Meetmi-MeetmiUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		59B5ADA1F7878C58C8ECEFBF /* Pods_Meetmi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetmi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231D6A2ACC1B1500D2BEF7 /* Meetmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231D6D2ACC1B1500D2BEF7 /* MeetmiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiApp.swift; sourceTree = "<group>"; };
 		66231D6F2ACC1B1600D2BEF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,23 +58,16 @@
 		66231D852ACC1B1B00D2BEF7 /* MeetmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66231D892ACC1B1B00D2BEF7 /* MeetmiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiUITests.swift; sourceTree = "<group>"; };
 		66231D8B2ACC1B1B00D2BEF7 /* MeetmiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetmiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		66803F692ACD431500207D89 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		6627E0842ACF03FA00E6C247 /* CountryPicker-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "CountryPicker-master"; sourceTree = "<group>"; };
+		662B3DFF2ACFEB4400F7509F /* PhoneOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneOTPView.swift; sourceTree = "<group>"; };
 		66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		669145C72ACDDA1900C6CED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		669145C92ACDE36C00C6CED6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		669145CB2ACDE3DE00C6CED6 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
 		66D239692ACEA5C400FD4680 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		66D2396B2ACEAF3600FD4680 /* Intro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Intro; sourceTree = "<group>"; };
-		66D2396D2ACEAF6400FD4680 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		66D239722ACEB0FA00FD4680 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		66D239742ACEB19000FD4680 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
-		66D239762ACEB2C800FD4680 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		66D239782ACED2E100FD4680 /* VerificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
 		66D2397D2ACED49300FD4680 /* SwiftUI_OTP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_OTP.xcdatamodel; sourceTree = "<group>"; };
 		66D2397F2ACED89300FD4680 /* contents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contents.txt; sourceTree = "<group>"; };
-		89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetmi_MeetmiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9C477D29FC093C186F70B6 /* Pods-MeetmiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetmiTests.release.xcconfig"; path = "Target Support Files/Pods-MeetmiTests/Pods-MeetmiTests.release.xcconfig"; sourceTree = "<group>"; };
-		BA9C57DBE6AF9D9BB326D835 /* Pods_MeetmiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetmiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57AD2187AA0BC94B701835AA /* Pods_Meetmi.framework in Frameworks */,
+				663B2DD92ACF19AF00574130 /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A48D1CD78B4D0807B67D33C /* Pods_MeetmiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82295987089AAA0378A74DDF /* Pods_Meetmi_MeetmiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +112,7 @@
 		66231D612ACC1B1500D2BEF7 = {
 			isa = PBXGroup;
 			children = (
+				6627E0832ACF03F200E6C247 /* Packages */,
 				66803F6B2ACD537B00207D89 /* GoogleService-Info.plist */,
 				66231D6C2ACC1B1500D2BEF7 /* Meetmi */,
 				66231D7E2ACC1B1B00D2BEF7 /* MeetmiTests */,
@@ -156,7 +139,6 @@
 				66D2397F2ACED89300FD4680 /* contents.txt */,
 				66D2397C2ACED49300FD4680 /* AuthData.xcdatamodeld */,
 				66D239712ACEB0DF00FD4680 /* ViewModels */,
-				66D2396B2ACEAF3600FD4680 /* Intro */,
 				669145C82ACDE31B00C6CED6 /* Helpers */,
 				669145C72ACDDA1900C6CED6 /* Info.plist */,
 				66803F662ACD41C000207D89 /* Registration */,
@@ -196,10 +178,18 @@
 			path = MeetmiUITests;
 			sourceTree = "<group>";
 		};
+		6627E0832ACF03F200E6C247 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				6627E0842ACF03FA00E6C247 /* CountryPicker-master */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		66803F662ACD41C000207D89 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
-				66803F692ACD431500207D89 /* RegistrationView.swift */,
+				662B3DFF2ACFEB4400F7509F /* PhoneOTPView.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -207,7 +197,6 @@
 		669145C82ACDE31B00C6CED6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				66D2396D2ACEAF6400FD4680 /* Persistence.swift */,
 				669145C92ACDE36C00C6CED6 /* MapView.swift */,
 			);
 			path = Helpers;
@@ -216,10 +205,6 @@
 		66D239712ACEB0DF00FD4680 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				66D239782ACED2E100FD4680 /* VerificationViewModel.swift */,
-				66D239762ACEB2C800FD4680 /* UserSettings.swift */,
-				66D239742ACEB19000FD4680 /* ViewRouter.swift */,
-				66D239722ACEB0FA00FD4680 /* ViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -227,9 +212,6 @@
 		74D2EA901633D2E98C552C85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59B5ADA1F7878C58C8ECEFBF /* Pods_Meetmi.framework */,
-				89C3F0DDE92F2F700E94A754 /* Pods_Meetmi_MeetmiUITests.framework */,
-				BA9C57DBE6AF9D9BB326D835 /* Pods_MeetmiTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,6 +234,9 @@
 			dependencies = (
 			);
 			name = Meetmi;
+			packageProductDependencies = (
+				663B2DD82ACF19AF00574130 /* CountryPicker */,
+			);
 			productName = Meetmi;
 			productReference = 66231D6A2ACC1B1500D2BEF7 /* Meetmi.app */;
 			productType = "com.apple.product-type.application";
@@ -327,6 +312,9 @@
 				Base,
 			);
 			mainGroup = 66231D612ACC1B1500D2BEF7;
+			packageReferences = (
+				663B2DD72ACF19AE00574130 /* XCRemoteSwiftPackageReference "countrypicker" */,
+			);
 			productRefGroup = 66231D6B2ACC1B1500D2BEF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -345,7 +333,6 @@
 			files = (
 				66231D762ACC1B1A00D2BEF7 /* Preview Assets.xcassets in Resources */,
 				66D239802ACED89400FD4680 /* contents.txt in Resources */,
-				66D2396C2ACEAF3600FD4680 /* Intro in Resources */,
 				66231D722ACC1B1A00D2BEF7 /* Assets.xcassets in Resources */,
 				66803F6C2ACD537C00207D89 /* GoogleService-Info.plist in Resources */,
 			);
@@ -475,16 +462,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D239752ACEB19100FD4680 /* ViewRouter.swift in Sources */,
 				66231D702ACC1B1600D2BEF7 /* ContentView.swift in Sources */,
 				669145CA2ACDE36C00C6CED6 /* MapView.swift in Sources */,
-				66D239772ACEB2C800FD4680 /* UserSettings.swift in Sources */,
 				669145CC2ACDE3DE00C6CED6 /* TrackingView.swift in Sources */,
-				66D2396E2ACEAF6500FD4680 /* Persistence.swift in Sources */,
-				66D239792ACED2E200FD4680 /* VerificationViewModel.swift in Sources */,
 				66231D6E2ACC1B1500D2BEF7 /* MeetmiApp.swift in Sources */,
-				66803F6A2ACD431500207D89 /* RegistrationView.swift in Sources */,
-				66D239732ACEB0FA00FD4680 /* ViewModel.swift in Sources */,
+				662B3E002ACFEB4400F7509F /* PhoneOTPView.swift in Sources */,
 				66D2396A2ACEA5C400FD4680 /* SplashView.swift in Sources */,
 				66D2397E2ACED49300FD4680 /* AuthData.xcdatamodeld in Sources */,
 			);
@@ -645,6 +627,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Meetmi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -683,6 +666,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Meetmi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -838,6 +822,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		663B2DD72ACF19AE00574130 /* XCRemoteSwiftPackageReference "countrypicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/suryakantsharma/countrypicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		663B2DD82ACF19AF00574130 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 663B2DD72ACF19AE00574130 /* XCRemoteSwiftPackageReference "countrypicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		66D2397C2ACED49300FD4680 /* AuthData.xcdatamodeld */ = {

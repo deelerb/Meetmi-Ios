@@ -7,12 +7,26 @@
 
 import SwiftUI
 import CoreLocation
+import Firebase
 
 struct ContentView: View {
+    
+    @State private var authID: String?
+    
     var body: some View {
         
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194))
-                        .navigationBarTitle("Map View")
+        VStack{
+            
+            MapView(coordinate: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194))
+                .navigationBarTitle("Map View")
+            
+        }.onAppear(){
+            
+            self.authID = Auth.auth().currentUser?.uid
+            
+            print(authID)
+            
+        }
         
     }
 }
