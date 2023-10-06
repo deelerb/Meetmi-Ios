@@ -62,7 +62,7 @@ struct SplashView: View {
                         }else{
                             
                             
-                        Text("Splash screen")
+                      //  Text("Splash screen")
                             
                         }
                    
